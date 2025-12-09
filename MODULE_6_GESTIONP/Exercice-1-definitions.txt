@@ -1,0 +1,91 @@
+✅ Exercice : Gestion de Projet 
+1️⃣ Définition
+
+Explique en 2–3 phrases :
+Qu’est-ce qu’un projet ?
+
+        => Un projet : est un plan ( idées ) qui a une date de début et une date de fin, dont 
+                        prend un ensemble des actions afin de accomplir des tâches organisées.
+
+2️⃣ Cycle de vie:
+        => Constitue d'un ensemble d'étapes commençant par besoin puis spécification , conception , développement , test , livraison.
+        l'inconvénient dans cette méthode , c'est que depuis la détermination des besoins de client et la livrason de projet , y a pas eu une interaction entre 
+        le client et l'équipe de travail , ce qui donne un effet tunnel ( ya pas de communication ) , qui donne aussi des 
+        insatisfactions , des frustrations , et incompatibilité avec les changement de marché du travail.
+
+Classe dans l’ordre les 5 phases principales d’un projet :
+
+Exécutions
+
+Clôture
+
+Planification
+
+Démarrage
+
+Suivi et contrôle
+
+
+        => Démarrage  => Planification => Suivi et contrôle => Exécutions => Clôture
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+📘 Objectifs SMART (explication simple et rapide)
+
+Un objectif SMART est un objectif bien formulé.
+SMART = 5 critères :
+
+✅ S — Spécifique
+
+Clair, précis.
+👉 Pas vague.
+
+✅ M — Mesurable
+
+On peut mesurer le résultat.
+👉 Chiffres, pourcentage, quantité…
+
+✅ A — Atteignable
+
+Réaliste, possible.
+👉 Pas trop facile, pas impossible.
+
+✅ R — Pertinent (Relevant)
+
+Important pour le projet.
+👉 Utile, logique, cohérent.
+
+✅ T — Temporel
+
+A une date limite.
+👉 Deadline, durée, échéance.
+
+🎯 Exemple très simple
+
+Objectif NON SMART :
+
+Améliorer la qualité du service.
+
+👉 Trop vague.
+
+Objectif SMART :
+
+Améliorer le taux de satisfaction client de 75% à 90% d’ici fin juin 2025.
+
+✔️ Spécifique
+✔️ Mesurable
+✔️ Atteignable
+✔️ Pertinent
+✔️ Temporel
+
+📝 Petit exercice pour toi (1 minute)
+
+Transforme cet objectif vague en objectif SMART :
+
+“Augmenter la productivité de l’équipe.”
+
+
+====> Augmenter la productivité de l'équipe de 20% d'ici fin de juin 2025
