@@ -1,4 +1,4 @@
-package Project2.Tp3.Exercice1;
+package MODULE_1_JAVA.java_master_sidi_tps.Tp3.Exercice1;
 
 public class Principale {
     public static void main(String args[])

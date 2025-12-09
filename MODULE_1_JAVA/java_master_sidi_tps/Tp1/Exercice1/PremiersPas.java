@@ -1,4 +1,4 @@
-package Project2.Tp1.Exercice1;
+package  MODULE_1_JAVA.java_master_sidi_tps.Tp1.Exercice1;
 
 public class PremiersPas {
     public static void main (String args[])

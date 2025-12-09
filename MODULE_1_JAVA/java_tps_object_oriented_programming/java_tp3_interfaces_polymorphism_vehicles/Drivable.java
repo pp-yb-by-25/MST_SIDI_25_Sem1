@@ -1,5 +1,4 @@
-package MODULE_1_JAVA.java-tps-object-oriented-programming.java-tp3-interfaces-polymorphism-vehicles;
-
+package MODULE_1_JAVA.java_tps_object_oriented_programming.java_tp3_interfaces_polymorphism_vehicles;
 public interface Drivable
 {
     //Constante

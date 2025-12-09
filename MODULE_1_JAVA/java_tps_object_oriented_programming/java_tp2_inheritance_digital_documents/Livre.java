@@ -1,4 +1,4 @@
-package Project3.Gpt2;
+package MODULE_1_JAVA.java_tps_object_oriented_programming.java_tp2_inheritance_digital_documents;
 
 public class Livre extends DigitalDocument {
     //Attributs

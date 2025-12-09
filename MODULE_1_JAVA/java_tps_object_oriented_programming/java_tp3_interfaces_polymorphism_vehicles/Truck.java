@@ -1,5 +1,4 @@
-package Project3.Gp4;
-
+package MODULE_1_JAVA.java_tps_object_oriented_programming.java_tp3_interfaces_polymorphism_vehicles;
 public class Truck extends Véhicule implements Drivable,Loadable{
 
     //Attributs 

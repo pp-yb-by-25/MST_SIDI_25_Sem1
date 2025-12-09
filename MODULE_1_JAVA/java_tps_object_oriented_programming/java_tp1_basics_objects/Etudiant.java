@@ -1,4 +1,4 @@
-package Project3.Gpt1;
+package MODULE_1_JAVA.java_tps_object_oriented_programming.java_tp1_basics_objects;
 
 
 public class Etudiant {

@@ -1,4 +1,6 @@
-package Project2.Tp1.Exercice3;
+
+
+package MODULE_1_JAVA.java_master_sidi_tps.Tp1.Exercice3;
 public class LigneSegment {
     private Point p1;
     private Point p2;

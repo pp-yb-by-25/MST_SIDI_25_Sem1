@@ -1,4 +1,4 @@
-package Project2.Tp2.Exercice1;
+package MODULE_1_JAVA.java_master_sidi_tps.Tp2.Exercice1;
 
 public abstract class forme {
     //Attributs
