@@ -15,7 +15,11 @@ Skipped0
 
 
 
+===============================UPCASTINFG & DOWNCASTONG =========================
 
+upcasting : lors de l'instanciation de la classe mere : ( Forme f = new Cercle();)
+
+downsacting : lors de l appelle des methodes de la classe fille : ( ((Cercle) f).getRayon();  )
 
 
 ---------------------------------------------
