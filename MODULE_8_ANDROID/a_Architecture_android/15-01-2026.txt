@@ -175,3 +175,4 @@ NomDuProjet/
 ├── build.gradle                     # Script Gradle principal du projet
 ├── settings.gradle                  # Configuration du projet (modules, chemins)
 └── local.properties                 # Configuration locale (SDK path, etc.)
+
