@@ -1,4 +1,4 @@
-package MODULE_1_JAVA.TP1_BAHIDA_YOUSSEF_MASTER_SIDI_TA_2025.exercice_2;
+package MODULE_1_JAVA.TP_1_BAHIDA_YOUSSEF_MST_SIDI_TA_2025.src.exercice_2;
 
 import java.io.IOException;
 

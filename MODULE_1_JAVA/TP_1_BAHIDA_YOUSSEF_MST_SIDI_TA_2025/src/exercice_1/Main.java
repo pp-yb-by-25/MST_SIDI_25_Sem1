@@ -1,4 +1,4 @@
-package MODULE_1_JAVA.TP1_BAHIDA_YOUSSEF_MASTER_SIDI_TA_2025.exercice_1;
+package MODULE_1_JAVA.TP_1_BAHIDA_YOUSSEF_MST_SIDI_TA_2025.src.exercice_1;
 import java.io.File;
 
 public class Main {
