@@ -1,0 +1,69 @@
+EXAMEN COMPLET : TRAITEMENT DU SIGNAL (CHAPITRES 1 & 2)
+PARTIE I : FONDAMENTAUX ET CLASSIFICATION (THÉORIE)
+    A. Vrai ou Faux (Justifiez brièvement si faux)
+        1. Un signal transitoire est un signal non périodique dont le support temporel est borné. Vrai
+        2. L'énergie d'un signal périodique sur l'intervalle ]−∞,+∞[ est finie. 
+        3. Un signal échantillonné possède une amplitude continue et un temps discret.
+        4. La fonction sinus cardinal sinc(t) s'annule pour toutes les valeurs entières de t, sauf en t=0 où elle vaut 1.
+        5. L'impulsion de Dirac δ(t) est nulle partout sauf en t=0 où elle est infinie, et son intégrale vaut 1.
+        6. La fonction d'autocorrélation Cxx​(τ) est maximale à l'origine (τ=0).
+        7. Pour un signal réel, la fonction d'autocorrélation est impaire.
+        8. Un système est dit causal si sa réponse à l'instant t ne dépend que des entrées passées et présentes (h(t)=0 pour t<0).
+        9. Un système LTI est stable si sa réponse impulsionnelle est intégrable (condition de convergence).
+        10. En montage parallèle, la réponse impulsionnelle globale est le produit de convolution des réponses impulsionnelles individuelles.
+
+--------------------------------------------------------------------------------
+PARTIE II : CALCULS D'ÉNERGIE ET ANALYSE SPECTRALE
+    Exercice 1 : Énergie et Puissance Soit un signal x(t)=A⋅rect(t/τ).
+        1. Calculez l'énergie E de ce signal. Est-il à énergie finie ou à puissance moyenne finie ?
+        2. Si ce signal devient périodique de période T>τ, exprimez sa puissance moyenne P.
+    Exercice 2 : Transformée de Fourier et Spectres
+        1. Calculez la transformée de Fourier d'un signal cosinusoidal x(t)=Acos(2πf0​t). Dessinez son spectre.
+        2. Soit une fonction porte de largeur T0​. Quelle est sa transformée de Fourier X(f) ? Identifiez la position du premier zéro du spectre.
+        3. On considère un peigne de Dirac temporel de période Te​. Quelle est la forme de son spectre dans le domaine fréquentiel ?.
+
+--------------------------------------------------------------------------------
+PARTIE III : ÉCHANTILLONNAGE ET THÉORÈME DE SHANNON
+    Exercice 3 : Cas de calcul sur l'échantillonnage On considère un signal x(t) dont la fréquence maximale est Fmax​=12 kHz.
+        1. Condition de Shannon : Quelle est la fréquence d'échantillonnage minimale Fe​ requise pour éviter le repliement ?
+        2. Analyse de cas :
+            ◦ Si on choisit Fe​=20 kHz, sommes-nous en sur-échantillonnage ou sous-échantillonnage ? Le signal est-il récupérable ?.
+            ◦ Si Fe​=30 kHz, dessinez l'allure du spectre échantillonné Xe​(f) en montrant les motifs périodisés.
+        3. Échantillonnage Réel : Expliquez pourquoi l'échantillonnage réel par moyennage introduit une distorsion fréquentielle (terme H∗(f)).
+
+--------------------------------------------------------------------------------
+PARTIE IV : SYSTÈMES LTI ET CONVOLUTION
+    Exercice 4 : Manipulation du produit de convolution
+        1. Élément neutre : Simplifiez l'expression y(t)=x(t)∗δ(t).
+        2. Translation : Calculez y(t)=x(t)∗δ(t−t0​). Quelle est l'interprétation physique de ce résultat ?
+        3. Calcul de sortie : Un système a une réponse impulsionnelle h(t)=δ(t)+δ(t−T). Si l'entrée est x(t), exprimez la sortie y(t).
+        4. Filtrage fréquentiel : Si l'entrée E(f) passe par un filtre H(f), quelle est la formule de la sortie S(f) ?.
+    Exercice 5 : Association de systèmes Deux systèmes h1​(t) et h2​(t) sont placés en série.
+        1. Donnez l'expression de la réponse impulsionnelle globale hserie​(t).
+        2. Si h1​(t)=δ(t−τ) et h2​(t)=δ(t−τ), quelle est la réponse globale du système ?
+
+--------------------------------------------------------------------------------
+PARTIE V : NUMÉRISATION (QUANTIFICATION ET CODAGE)
+    Exercice 6 : Calcul de résolution et pas de quantification On souhaite numériser un signal dont la tension varie entre −10V et +10V (Vmax​=10V).
+        1. CAN 8 bits : Calculez le pas de quantification q.
+        2. CAN 12 bits : Calculez le nouveau pas q. Laquelle de ces deux configurations offre la meilleure résolution ?.
+        3. Erreur : Si la tension d'entrée est de 3,015V et que le palier le plus proche est 3,000V, comment appelle-t-on la différence entre ces deux valeurs ?.
+    Exercice 7 : Techniques de codage
+        1. Codage Unipolaire : Donnez la formule reliant la tension V au code numérique D.
+        2. Code Binaire Signé : On utilise un mot de 4 bits (1 bit de signe + 3 bits de magnitude). Codez la valeur positive "+3" et la valeur négative "−3".
+        3. LSB et MSB : Définissez ces deux acronymes et leur importance dans un mot binaire.
+
+--------------------------------------------------------------------------------
+PARTIE VI : CORRÉLATION ET DÉTECTION
+    1. Cas pratique : On reçoit un signal y(t) qui contient un signal utile x(t) noyé dans un bruit b(t). Quelle fonction mathématique permet de détecter la présence de x(t) dans y(t) ?.
+    2. Lien Énergie/Corrélation : Montrez que la valeur de l'autocorrélation à l'origine Cxx​(0) est égale à l'énergie E du signal.
+
+
+
+--------------------------------------------------------------------------------
+Synthèse des Formules Clés à maîtriser pour l'examen :
+• Convolution : y(t)=∫x(τ)h(t−τ)dτ.
+• Shannon : Fe​≥2Fmax​.
+• Pas de quantification : q=2.Vmax​​./pow(2,n)
+• Spectre échantillonné : Xe​(f)=Fe​∑X(f−nFe​).
+• Stabilité LTI : ∫∣h(t)∣dt<∞
