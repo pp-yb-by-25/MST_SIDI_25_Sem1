@@ -1,10 +1,9 @@
-package MODULE_1_JAVA.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.Partie_2;
+package MODULE_1_JAVA.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.Partie_2;
 
 
 import java.awt.event.*;
 import javax.swing.*;
-
-import MODULE_1_JAVA.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.Partie_1.Formulaire;
+import MODULE_1_JAVA.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.Partie_1.Formulaire;
 
 
 public class FormulaireMenu extends Formulaire{
@@ -13,7 +12,7 @@ public class FormulaireMenu extends Formulaire{
     public FormulaireMenu()
     {
         super();
-        this.setTitle("Formulaire avec Menu - MST SIDI 2026");
+        this.setTitle("Formulaire avec Menu MST-SIDI-TA-2026_BAHIDA_YOUSSEF");
         this.setLocation(400, 150);
         
         //Création de la barre de menu

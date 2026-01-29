@@ -1,4 +1,4 @@
-package MODULE_1_JAVA.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.Partie_1;
+package MODULE_1_JAVA.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.TP2_MST_SIDI_TA_2026___BAHIDA_YOUSSEF.Partie_1;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -29,7 +29,7 @@ public class Formulaire extends JFrame implements ActionListener {
         public Formulaire()
         {
             //la configuration de base de interface 
-            this.setTitle("Formulaire-MST-SIDI-2026");
+            this.setTitle("Formulaire MST-SIDI-2026_BAHIDA_YOUSSEF");
             this.setSize(400,500);
             this.setLayout(null);
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
